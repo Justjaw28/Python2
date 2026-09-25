@@ -14,7 +14,7 @@ tk.Label(root, text="Hello! I am a window!", font=("Arial", 24), fg="white", bg=
 def reroll():
     # Rolling a number
     dice_roll = random.randint(1, 100)
-    tk.Label(root, text=f"You rolled: {dice_roll}", font=("Arial", 20), fg="white", bg="black").pack(pady=20)
+    tk.Label(root, text=f"You rolled: {dice_roll}", font=("Arial", 15), fg="white", bg="black").pack(pady=10)
 
 reroll()
 
